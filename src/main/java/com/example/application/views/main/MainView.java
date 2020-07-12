@@ -5,6 +5,7 @@ import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.datepicker.DatePicker;
 import com.vaadin.flow.component.html.Span;
+import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.NumberField;
@@ -22,7 +23,7 @@ import java.util.List;
  * The main view is a top-level placeholder for other views.
  */
 @PWA(name = "First Project", shortName = "First Project")
-@Theme(value = Lumo.class, variant = Material.LIGHT)
+@Theme(value = Material.class, variant = Material.LIGHT)
 @Route
 public class MainView extends VerticalLayout {
     public MainView() {
